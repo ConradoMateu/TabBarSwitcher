@@ -15,6 +15,7 @@
 		E2994D291D675877004A598A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2994D271D675877004A598A /* LaunchScreen.storyboard */; };
 		E2994D341D675877004A598A /* TabBarSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2994D331D675877004A598A /* TabBarSwipeTests.swift */; };
 		E2994D3F1D675877004A598A /* TabBarSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2994D3E1D675877004A598A /* TabBarSwipeUITests.swift */; };
+		E2FE43FE1D69CD3D00843D12 /* TabBarSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE43FD1D69CD3D00843D12 /* TabBarSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E2994D3A1D675877004A598A /* TabBarSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2994D3E1D675877004A598A /* TabBarSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSwipeUITests.swift; sourceTree = "<group>"; };
 		E2994D401D675877004A598A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FE43FD1D69CD3D00843D12 /* TabBarSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E2994D251D675877004A598A /* Assets.xcassets */,
 				E2994D271D675877004A598A /* LaunchScreen.storyboard */,
 				E2994D2A1D675877004A598A /* Info.plist */,
+				E2FE43FD1D69CD3D00843D12 /* TabBarSwitcher.swift */,
 			);
 			path = TabBarSwipe;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2994D211D675877004A598A /* SecondViewController.swift in Sources */,
+				E2FE43FE1D69CD3D00843D12 /* TabBarSwitcher.swift in Sources */,
 				E2994D1D1D675877004A598A /* AppDelegate.swift in Sources */,
 				E2994D1F1D675877004A598A /* FirstViewController.swift in Sources */,
 			);
@@ -489,6 +493,7 @@
 				E2994D451D675877004A598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2994D461D675877004A598A /* Build configuration list for PBXNativeTarget "TabBarSwipeTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				E2994D481D675877004A598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2994D491D675877004A598A /* Build configuration list for PBXNativeTarget "TabBarSwipeUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				E2994D4B1D675877004A598A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

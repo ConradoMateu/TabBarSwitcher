@@ -8,18 +8,23 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, TabBarSwitcher {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        initSwipe(.Right)
+        self.view.backgroundColor = UIColor.greenColor()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func handleSwipes(sender:UISwipeGestureRecognizer) {
+        if (sender.direction == .Right) {
+            tabBarController?.selectedIndex = 0
+        }
     }
-
 
 }
+
+
+
 
